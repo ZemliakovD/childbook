@@ -35,5 +35,79 @@ $(function(){
         ]
       });
 
+      $(document).ready(function() {
+        let scrollPosition = 0;
+      
+        // Сохранение текущего положения прокрутки при клике на пункт меню
+        $('.menu-item').on('click', function() {
+          scrollPosition = $(window).scrollTop();
+        });
+    
+      });
+      
+      
+
+
+      $("#glavnaya").click(function() { // ID откуда кливаем
+        $('html, body').animate({
+        scrollTop: $(".main").offset().top // класс объекта к которому приезжаем
+        }, 1000); // Скорость прокрутки
+       });
+
+       $("#m_glavnaya").click(function() { // ID откуда кливаем
+        $('html, body').animate({
+        scrollTop: $(".main").offset().top // класс объекта к которому приезжаем
+        }, 1000); // Скорость прокрутки
+       });
+
+       $("#mi").click(function() { // ID откуда кливаем
+        $('html, body').animate({
+        scrollTop: $(".about").offset().top // класс объекта к которому приезжаем
+        }, 1000); // Скорость прокрутки
+       });
+
+       $("#m_mi").click(function() { // ID откуда кливаем
+        $('html, body').animate({
+        scrollTop: $(".about").offset().top // класс объекта к которому приезжаем
+        }, 1000); // Скорость прокрутки
+       });
+
+       $("#uslugi").click(function() { // ID откуда кливаем
+        $('html, body').animate({
+        scrollTop: $(".programm").offset().top // класс объекта к которому приезжаем
+        }, 1000); // Скорость прокрутки
+       });
+
+       $("#m_uslugi").click(function() { // ID откуда кливаем
+        $('html, body').animate({
+        scrollTop: $(".programm").offset().top // класс объекта к которому приезжаем
+        }, 1000); // Скорость прокрутки
+       });
+
+       $("#usluga").click(function() { // ID откуда кливаем
+        $('html, body').animate({
+        scrollTop: $(".programm").offset().top // класс объекта к которому приезжаем
+        }, 1000); // Скорость прокрутки
+       });
+
+       $("#uslug").click(function() { // ID откуда кливаем
+        $('html, body').animate({
+        scrollTop: $(".programm").offset().top // класс объекта к которому приезжаем
+        }, 1000); // Скорость прокрутки
+       });
+
+
+       $("#kontakti").click(function() { // ID откуда кливаем
+        $('html, body').animate({
+        scrollTop: $(".footer").offset().top // класс объекта к которому приезжаем
+        }, 1000); // Скорость прокрутки
+       });
+
+       $("#m_kontakti").click(function() { // ID откуда кливаем
+        $('html, body').animate({
+        scrollTop: $(".footer").offset().top // класс объекта к которому приезжаем
+        }, 1000); // Скорость прокрутки
+       });
+
 
 });

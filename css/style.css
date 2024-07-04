@@ -6,6 +6,11 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: #701870;
+  }
+
 ul,
 ol {
     list-style-type: none;
@@ -13,6 +18,12 @@ ol {
 
 a {
     text-decoration: none;
+    transition: all .3s;
+}
+
+a:hover{
+    color: #FF8811;
+    transition: all .3s;
 }
 
 .container {
