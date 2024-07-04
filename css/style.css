@@ -9,7 +9,7 @@ body {
 body::-webkit-scrollbar {
     width: 10px;
     background-color: #701870;
-  }
+}
 
 ul,
 ol {
@@ -21,7 +21,7 @@ a {
     transition: all .3s;
 }
 
-a:hover{
+a:hover {
     color: #FF8811;
     transition: all .3s;
 }
@@ -452,22 +452,22 @@ a:hover{
     color: #6E6E6E;
 }
 
-.we-text ul{
+.we-text ul {
     margin-left: 15px;
 }
 
-.we-text ul li{
+.we-text ul li {
     color: #6E6E6E;
     margin-bottom: 5px;
     font-size: 17px;
     line-height: 23px;
 }
 
-.we-text ul li:last-child{
+.we-text ul li:last-child {
     margin-bottom: 25px;
 }
 
-.we-text ul li{
+.we-text ul li {
     list-style-image: url(../img/icon/caret.png);
 }
 
@@ -513,14 +513,14 @@ a:hover{
     text-align: center;
 }
 
-.program-card{
+.program-card {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 25px;
 }
 
-.program-item{
+.program-item {
     width: 32%;
     background-color: #FFFFFF;
     border-radius: 10px;
@@ -531,37 +531,37 @@ a:hover{
     cursor: pointer;
 }
 
-.card-top{
+.card-top {
     display: flex;
     margin-bottom: 20px;
 }
 
-.card-top span{
+.card-top span {
     color: #701870;
     font-weight: 700;
     font-size: 59px;
     margin-right: 35px;
 }
 
-.card-top h3{
+.card-top h3 {
     font-size: 21px;
     font-weight: 700;
     line-height: 28px;
     margin-bottom: 7px;
 }
 
-.text-item{
+.text-item {
     display: flex;
     align-items: baseline;
 }
 
-.text-item img{
+.text-item img {
     display: flex;
     align-items: baseline;
     margin-right: 10px;
 }
 
-.text-item p{
+.text-item p {
     font-size: 17px;
     line-height: 23px;
     margin-bottom: 15px;
@@ -569,27 +569,27 @@ a:hover{
 }
 
 
-.program-item:hover{
+.program-item:hover {
     background-color: #701870;
     transition: all .3s;
 }
 
-.program-item:hover .card-top span{
+.program-item:hover .card-top span {
     color: #FF8811;
     transition: all .3s;
 }
 
-.program-item:hover .card-top h3{
+.program-item:hover .card-top h3 {
     color: #fff;
     transition: all .3s;
 }
 
-.program-item:hover .text-item p{
+.program-item:hover .text-item p {
     color: #fff;
     transition: all .3s;
 }
 
-.program-inner button{
+.program-inner button {
     display: flex;
     align-items: center;
     background-color: #FF8811;
@@ -606,7 +606,7 @@ a:hover{
     margin: 0 auto;
 }
 
-.program-inner button:hover{
+.program-inner button:hover {
     background-color: #fff;
     color: #FF8811;
     transition: all .3s;
@@ -1089,12 +1089,6 @@ a:hover{
         margin-bottom: 15px;
     }
 
-    .navbar-nav li a {
-        font-size: 21px;
-        line-height: 21px;
-        font-weight: 400;
-        color: #fff;
-    }
 
     .offcanvas-body button {
         background-color: #FF8811;
@@ -1111,20 +1105,32 @@ a:hover{
         margin-bottom: 30px;
     }
 
-    .offcanvas-body .adress-block{
+    .navbar-nav li button {
+        padding: 0;
+        background: transparent;
+        border: none;
+        margin-bottom: 0;
+        font-size: 21px;
+        line-height: 21px;
+        font-weight: 400;
+        color: #fff;
+        text-transform: none;
+    }
+
+    .offcanvas-body .adress-block {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .offcanvas-body .adress-block p{
+    .offcanvas-body .adress-block p {
         margin-bottom: 15px;
     }
 
-    .offcanvas-body .adress-block a{
+    .offcanvas-body .adress-block a {
         margin-bottom: 15px;
     }
 
-    .offcanvas-body a img{
+    .offcanvas-body a img {
         max-width: 30px;
     }
 
@@ -1217,7 +1223,7 @@ a:hover{
         margin-bottom: 35px;
     }
 
-    .we-banner img{
+    .we-banner img {
         width: 45%;
         margin-right: 0;
     }
@@ -1245,7 +1251,7 @@ a:hover{
         line-height: 30px;
     }
 
-    .program-item{
+    .program-item {
         width: 100%;
     }
 
@@ -1447,13 +1453,6 @@ a:hover{
         margin-bottom: 15px;
     }
 
-    .navbar-nav li a {
-        font-size: 21px;
-        line-height: 21px;
-        font-weight: 400;
-        color: #fff;
-    }
-
     .offcanvas-body button {
         background-color: #FF8811;
         border: 1px solid #FF8811;
@@ -1469,20 +1468,32 @@ a:hover{
         margin-bottom: 30px;
     }
 
-    .offcanvas-body .adress-block{
+    .navbar-nav li button {
+        padding: 0;
+        background: transparent;
+        border: none;
+        margin-bottom: 0;
+        font-size: 21px;
+        line-height: 21px;
+        font-weight: 400;
+        color: #fff;
+        text-transform: none;
+    }
+
+    .offcanvas-body .adress-block {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .offcanvas-body .adress-block p{
+    .offcanvas-body .adress-block p {
         margin-bottom: 15px;
     }
 
-    .offcanvas-body .adress-block a{
+    .offcanvas-body .adress-block a {
         margin-bottom: 15px;
     }
 
-    .offcanvas-body a img{
+    .offcanvas-body a img {
         max-width: 30px;
     }
 
@@ -1598,7 +1609,7 @@ a:hover{
         line-height: 30px;
     }
 
-    .program-item{
+    .program-item {
         width: 100%;
     }
 
