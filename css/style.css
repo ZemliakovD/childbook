@@ -354,7 +354,7 @@ a:hover{
     display: flex;
     align-items: flex-start;
     transition: all .3s;
-    min-height: 155px
+    min-height: 155px;
     cursor: pointer;
 }
 
@@ -1215,6 +1215,11 @@ a:hover{
         justify-content: space-between;
         margin-right: 0;
         margin-bottom: 35px;
+    }
+
+    .we-banner img{
+        width: 45%;
+        margin-right: 0;
     }
 
     .we-text {
